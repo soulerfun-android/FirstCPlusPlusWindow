@@ -1,11 +1,26 @@
 #pragma once
+
 #define OnMenuAction1		1
 #define OnMenuAction2		2
 #define OnMenuAction3		3
 #define OnExitSoftware		4
 #define OnClearField		5
 #define OnButtonClicked		6
+#define OnReadText			7
+#define OnReadNumber		8
 
+#define DlgIndexNumber		201
+
+// буффер для считывания
+#define TextBufferSize		10
+
+char Buffer[TextBufferSize];
+int CharsRead;
+unsigned num;
+
+HWND hEditReadControl;
+HWND hNumberReadControl;
+HWND hNumberControl;
 HWND hEditControl;
 
 LRESULT CALLBACK SoftwareMainProcedure(HWND hWnd, UINT msg, WPARAM wp, LPARAM lp);
