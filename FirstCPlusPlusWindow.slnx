@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="FirstCPlusPlusWindow/FirstCPlusPlusWindow.vcxproj" />
+  <Project Path="FirstCPlusPlusWindow/FirstCPlusPlusWindow.vcxproj" Id="df6ad7f6-0976-4891-9dfc-d763185c24d5" />
 </Solution>
