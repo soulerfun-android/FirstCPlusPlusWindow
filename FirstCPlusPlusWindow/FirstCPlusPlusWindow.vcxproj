@@ -131,6 +131,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />
+    <ClInclude Include="resource1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FirstCPlusPlusWindow1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\Man\Desktop\heart.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
