@@ -3,9 +3,16 @@
 #define OnMenuAction2		2
 #define OnMenuAction3		3
 #define OnExitSoftware		4
+#define OnClearField		5
+#define OnButtonClicked		6
 
+HWND hEditControl;
 
 LRESULT CALLBACK SoftwareMainProcedure(HWND hWnd, UINT msg, WPARAM wp, LPARAM lp);
 WNDCLASS NewWindowClass(HBRUSH BGColor, HCURSOR Cursor, HINSTANCE hInst, HICON Icon, LPCWSTR Name, WNDPROC Procedure);
 
+//функция для создания меню
 void MainWndAddMenus(HWND hWnd);
+
+//функция для создания виджетов
+void MainWndAddWidgets(HWND hWnd);
